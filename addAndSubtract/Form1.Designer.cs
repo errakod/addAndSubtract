@@ -41,6 +41,7 @@
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnSubstract
             // 
@@ -50,6 +51,7 @@
             this.btnSubstract.TabIndex = 1;
             this.btnSubstract.Text = "substract";
             this.btnSubstract.UseVisualStyleBackColor = true;
+            this.btnSubstract.Click += new System.EventHandler(this.btnSubstract_Click);
             // 
             // lblSum
             // 
